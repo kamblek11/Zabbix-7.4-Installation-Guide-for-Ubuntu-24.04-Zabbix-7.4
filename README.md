@@ -5,8 +5,12 @@
 
       ```bash
       sudo apt update && sudo apt upgrade -y
+      ```bash
       sudo apt install openssh-server
+       ```
       sudo systemctl status ssh
+      ```
+       ```bash
       sudo ufw allow ssh
       ```
 
