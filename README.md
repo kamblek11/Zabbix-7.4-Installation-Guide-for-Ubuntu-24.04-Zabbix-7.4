@@ -5,16 +5,19 @@
 
       ```bash
       sudo apt update && sudo apt upgrade -y
-      ```bash
-      sudo apt install openssh-server
-       ```
-      sudo systemctl status ssh
       ```
        ```bash
-      sudo ufw allow ssh
+      sudo apt install openssh-server
       ```
+ ```bash
+      sudo systemctl status ssh
+ ```
+      
+```bash
+      sudo ufw allow ssh
+```
 
-2. (Optional) Enable SSH root login:
+3. (Optional) Enable SSH root login:
 
 sudo vi /etc/ssh/sshd_config
 # Update the following parameter:
