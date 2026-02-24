@@ -19,13 +19,21 @@
 
 3. **(Optional) Enable SSH root login:**
 
-sudo vi /etc/ssh/sshd_config
+   ```bash
+   sudo vi /etc/ssh/sshd_config
+   ```
+   
 # Update the following parameter:
-PermitRootLogin yes
+  PermitRootLogin yes
+
 Restart SSH:
 
+      ```bash
       sudo systemctl enable ssh
+      ```
+      ```bash
       sudo systemctl restart ssh
+      ```
 
 3. Install Apache and PHP:
 
