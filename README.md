@@ -24,7 +24,7 @@
    ```
    
 Update the following parameter:
-  PermitRootLogin yes
+  **PermitRootLogin yes**
 
 Restart SSH:
 
