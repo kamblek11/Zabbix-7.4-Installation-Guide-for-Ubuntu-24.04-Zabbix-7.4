@@ -35,7 +35,7 @@ Restart SSH:
       sudo systemctl restart ssh
  ```
 
-3. **Install Apache and PHP:**
+3. # Install Apache and PHP:
 
       ```bash
       sudo apt install apache2
@@ -47,7 +47,7 @@ Restart SSH:
       sudo apt install libapache2-mod-php
       ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-4. **Install & Configure Zabbix:**
+4. # Install & Configure Zabbix:
 
 a. Switch to root:
 
@@ -74,7 +74,7 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. #Install & Configure MySQL
+3. # Install & Configure MySQL
 
 a. **Install MySQL Server:**
 
@@ -98,15 +98,14 @@ b. **Secure MySQL Installation:**
 ```bash
 sudo mysql_secure_installation
 ```
-
 **Recommended options:**
 
-Enter current root password → **Press Enter**
-Set root password? → **n**
-Remove anonymous users? → **y**
-Disallow remote root login? → **y**
-Remove test database? → **y**
-Reload privilege tables? → **y**
+Enter current root password → **Press Enter** |
+Set root password? → **n**                    |
+Remove anonymous users? → **y**               |
+Disallow remote root login? → **y**           |
+Remove test database? → **y**                 |
+Reload privilege tables? → **y**              |
 
 4. **Create Zabbix Database & User:**
 
@@ -115,9 +114,9 @@ Log in to MySQL:
 ```bash
 mysql -u root -p
 ```
-#Run the following inside the MySQL shell:
+# Run the following inside the MySQL shell:
 
-# mysql -uroot -p
+mysql -uroot -p
 password
 ```bash
 create database inzabbix character set utf8mb4 collate utf8mb4_bin;
@@ -173,13 +172,13 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8. #Open the Zabbix UI web page
+8. # Open the Zabbix UI web page
 
 The default URL for Zabbix UI when using the Apache web server is **http://host/zabbix**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-9. #Configure the Zabbix Agent (Client Machine):
+9. # Configure the Zabbix Agent (Client Machine):
 
 (Optional) **Install Zabbix Agent on Additional Client Machines:**
 
@@ -215,4 +214,4 @@ sudo systemctl enable zabbix-agent
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                  **Thank You**
+                                          **Thank You**
