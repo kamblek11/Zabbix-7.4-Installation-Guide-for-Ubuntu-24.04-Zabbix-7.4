@@ -37,15 +37,15 @@ Restart SSH:
 
 # 3. Install Apache and PHP:
 
-      ```bash
-      sudo apt install apache2
-      ```
-      ```bash
-      sudo apt install php php-{cgi,common,mbstring,net-socket,gd,xml-util,mysql,bcmath,imap,snmp}
-      ```
-      ```bash
-      sudo apt install libapache2-mod-php
-      ```
+```bash
+sudo apt install apache2
+```
+```bash
+sudo apt install php php-{cgi,common,mbstring,net-socket,gd,xml-util,mysql,bcmath,imap,snmp}
+```
+```bash
+sudo apt install libapache2-mod-php
+```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 4. Install & Configure Zabbix:
 
