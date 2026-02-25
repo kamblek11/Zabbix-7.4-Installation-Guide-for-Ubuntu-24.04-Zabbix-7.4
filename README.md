@@ -100,12 +100,12 @@ sudo mysql_secure_installation
 ```
 **Recommended options:**
 
-      Enter current root password → **Press Enter** 
-      Set root password? → **n**                    
-      Remove anonymous users? → **y**               
-      Disallow remote root login? → **y**           
-      Remove test database? → **y**                 
-      Reload privilege tables? → **y**              
+      Enter current root password → Press Enter
+      Set root password? → n                   
+      Remove anonymous users? → y              
+      Disallow remote root login? → y          
+      Remove test database? → y                 
+      Reload privilege tables? → y             
 
 4. **Create Zabbix Database & User:**
 
