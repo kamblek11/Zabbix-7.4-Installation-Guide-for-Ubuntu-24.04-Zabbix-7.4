@@ -35,7 +35,7 @@ Restart SSH:
       sudo systemctl restart ssh
  ```
 
-3. # Install Apache and PHP:
+# 3. Install Apache and PHP:
 
       ```bash
       sudo apt install apache2
@@ -47,7 +47,7 @@ Restart SSH:
       sudo apt install libapache2-mod-php
       ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-4. # Install & Configure Zabbix:
+# 4. Install & Configure Zabbix:
 
 a. Switch to root:
 
@@ -74,7 +74,7 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. # Install & Configure MySQL
+# 3. Install & Configure MySQL
 
 a. **Install MySQL Server:**
 
@@ -172,13 +172,13 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8. # Open the Zabbix UI web page
+# 8. Open the Zabbix UI web page
 
 The default URL for Zabbix UI when using the Apache web server is **http://host/zabbix**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-9. # Configure the Zabbix Agent (Client Machine):
+# 9. Configure the Zabbix Agent (Client Machine):
 
 (Optional) **Install Zabbix Agent on Additional Client Machines:**
 
@@ -214,4 +214,4 @@ sudo systemctl enable zabbix-agent
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                          **Thank You**
+                                      **Thank You**
